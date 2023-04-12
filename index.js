@@ -55,16 +55,19 @@ const questions = [
                 message: 'What license do you want to use?',
                 name: 'license',
                 choices: ['MIT', 'Apache', 'Boost Software', "creative Commons Zero", 'None']
-            },
+            }
         ])
+        .then((response)=>{
+            console.log(response);  
+        })
 
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    const fileName = `${data.fileName.tolowercae().split(' ').join('')}.md`
+    const name = `${data.fileName.tolowercae().split(' ').join('')}.md`
 
-    fs.writeFile(fileName, JSON.stringify(questions.data, null, '\t', (err) =>
+    fs.writeFile(name, JSON.stringify(questions.data, null, '\t', (err) =>
         err ? console.log(err) : console.log('success!')))
 }
 
