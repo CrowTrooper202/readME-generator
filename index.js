@@ -60,12 +60,13 @@ const questions = [
         ])
         .then((data) => {
     
-            const name = `${data.fileName.toLowerCase().split(' ').join('')}.md`
+            const name = `README.md`
             fs.writeFile(name, generateMarkdown(data), (err) =>
                 err ? console.log(err) : console.log('success!'))
         })
 
 ];
+
 
 // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {

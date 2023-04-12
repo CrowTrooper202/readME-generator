@@ -28,7 +28,7 @@ function renderLicenseLink(license) {
     let link ; 
     switch (license) {
             case 'MIT':
-                link= "[License: MIT](https://opensource.org/licenses/MIT)";
+                link= '[License: MIT](https://opensource.org/licenses/MIT)';
                  break;
              case 'Apache':
                 link= '[License: Apache](https://opensource.org/licenses/Apache-2.0)';
@@ -92,7 +92,7 @@ ${data.test}
 
 ## Questions
 
-If you with to contact me please reach out to my GitHub at ${data.gitHub} or my email ${data.email}
+If you with to contact me please reach out to my GitHub at [${data.gitHub}](https://github.com/${data.gitHub.toLowerCase().split(' ').join('')}/) or my email ${data.email}
 
 `;
 }
