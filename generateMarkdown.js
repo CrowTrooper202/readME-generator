@@ -28,16 +28,16 @@ function renderLicenseLink(license) {
     let link ; 
     switch (license) {
             case 'MIT':
-                link= "![License: MIT](https://opensource.org/licenses/MIT)";
+                link= "[License: MIT](https://opensource.org/licenses/MIT)";
                  break;
              case 'Apache':
-                link= '![License](https://opensource.org/licenses/Apache-2.0)';
+                link= '[License: Apache](https://opensource.org/licenses/Apache-2.0)';
                  break;
              case 'Boost Software':
-                link= '![License](https://www.boost.org/LICENSE_1_0.txt)';
+                link= '[License: Boost Software](https://www.boost.org/LICENSE_1_0.txt)';
                  break;
              case 'creative Commons Zero':
-                link= '![License: CC0-1.0](http://creativecommons.org/publicdomain/zero/1.0/)';
+                link= '[License: CC0-1.0](http://creativecommons.org/publicdomain/zero/1.0/)';
                  break;
             default:
                 link= 'no license selected'
