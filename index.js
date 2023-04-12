@@ -73,13 +73,17 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    writeToFile()
+    inquirer
+    .prompt(questions)
+    .then((data) =>{
+        
+    })
  }
 
 // Function call to initialize app
 init();
 
-// switch (questions.choices) {
+// switch (data.license) {
 //     case 'MIT':
 //         // fs.appendFile(`${name}`, "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)" );
 //         break;
