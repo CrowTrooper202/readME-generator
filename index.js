@@ -58,7 +58,7 @@ const questions = [
             }
         ])
         .then((response)=>{
-            console.log(response);  
+            fs.writeToFile;  
         })
 
 ];
@@ -81,7 +81,7 @@ init();
 
 // switch (questions.choices) {
 //     case 'MIT':
-//         // fs.appendFile('fileName.md', "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)" );
+//         // fs.appendFile(`${name}`, "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)" );
 //         break;
 //     case 'Apache':
 //         // fs.appendFile('fileName.md', '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)');
