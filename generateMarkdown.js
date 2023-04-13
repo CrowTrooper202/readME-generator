@@ -53,15 +53,13 @@ function renderLicenseLink(license) {
 // TODO: Create a function to generate markdown for ReadME
 function generateMarkdown(data) {
   return `
-# ${data.fileName}${renderLicenseBadge(data.license)}
+# ${data.fileName} ${renderLicenseBadge(data.license)}
 
 ## Description
 
 ${data.discription}
 
 ## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [Installation](#installation)
 - [Usage](#usage)
