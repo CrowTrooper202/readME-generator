@@ -23,7 +23,8 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Usage
 
-- [ReadME-generator demo] (https://drive.google.com/file/d/1vEudvJ-2gzNNjUt6YboVgJ8vyU-bEABq/view)
+- [readMe Demmo](https://drive.google.com/file/d/1vEudvJ-2gzNNjUt6YboVgJ8vyU-bEABq/view)
+
 
 ## Credits
 
