@@ -61,7 +61,7 @@ const questions = [
         ])
         .then((data) => {
     
-            const name = `ReadME.md`
+            const name = `ReadMeTest.md`
             fs.writeFile(name, generateMarkdown(data), (err) =>
                 err ? console.log(err) : console.log('success!'))
         })

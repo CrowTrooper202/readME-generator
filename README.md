@@ -1,4 +1,4 @@
-# readME-generator
+# readMe-generator
 
 ## Description
 
@@ -6,12 +6,15 @@
 - to acomplish this i was provided starter code to help guide me in the right direction. from their i installed the inquire module and began coding the nessary prompts that would be need in a professional README.
 - some key take away lessons was the syntax to call back relevant data from the inquirer arry and implanting it into the readme funtion. another key lesson was the linking of JS pages to allow the to talk to eachother and run properly.
 
-## Table of Contents 
+## Table of Contents (Optional)
+
+If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+
 
 ## Installation
 
@@ -20,16 +23,12 @@
 
 ## Usage
 
-
-
-
-
-
+-N/A
 
 ## Credits
 
-N/A
+-N/A
 
 ## License
 
-N/A
+-N/A
